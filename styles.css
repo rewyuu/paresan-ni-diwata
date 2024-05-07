@@ -1,0 +1,174 @@
+body {
+    margin: 0px;
+    background-color: rgb(223, 223, 223);
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    overflow-x: hidden;
+}
+
+.navbar {
+    width: 100%;
+    padding: 6px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 5px 0px rgba(214, 195, 44, 0.75);
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(214, 195, 44, 0.75);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(214, 195, 44, 0.75);
+}
+
+#jerryLogo {
+    width: 125px;
+    margin-right: 60px;
+}
+
+.faq {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 15px;
+    margin-right: 50px;
+}
+
+.jerrysFood  {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 15px;
+    color: rgb(8, 136, 58);
+}
+
+.navbar-left div {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.navbar-left div:hover,
+.store-list:hover,
+.faq:hover {
+    cursor: pointer;
+    color: #c1c14e;
+}
+
+.navbar-left , .navbar-right {
+    display: flex;
+    align-items: center; 
+}
+
+.navbar-left > *
+,.navbar-right > *{  
+    margin: 15px;
+}
+
+.store-list {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.sign-up,
+.log-in {
+    font-weight: 500;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 5px 20px 5px 20px;
+}
+
+.sign-up {
+    background-color: black;
+    color: white;
+}
+
+.sign-up:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+}
+
+.log-in:hover {
+    background-color: rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+}
+
+.list-buttons {
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    width: 85%;
+    text-align: center;
+    margin-left: 5%;
+}
+
+.list-buttons:hover {
+    cursor: pointer;
+}
+
+.pares-storeList {
+    background-color: #F5AA27;
+    width: 150px;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.pares-storeList:hover {
+    background-color: #f4b852;
+}
+
+.pares-priceList {
+    background-color: #F4D548;
+    width: 150px;
+    padding: 10px;
+    border-radius: 7px;
+    margin-left: 7%;
+}
+
+.pares-priceList:hover {
+    background-color: #f0ca1e;
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+}
+.product img {
+    margin: 2.3%;
+    max-width: 70%;
+    object-fit: contain;
+  
+}
+.product {
+    display: flex;
+}
+
+.product-left,
+.product-right {
+    max-width: 50%;
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    align-content: stretch;
+    flex-direction: column;
+}
+
+.product-right {
+    padding: 20px;
+}
+
+.product-title {
+    width: 50%;
+    color: white;
+    margin-right: 80px;
+}
+.product-container {
+    margin: 40px 0px 40px 0px;
+    display: flex;
+}
+
+.product-description {
+    text-align: center;
+    padding: 30px 6px 30px 60px;
+    font-size: 18px;
+}
